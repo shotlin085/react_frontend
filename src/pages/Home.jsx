@@ -30,18 +30,18 @@ const Home = () => {
   return (
     <div className="page-container fade-in">
       <div className="header-section">
-        <h2>Recent Users</h2>
+        <h2>Recent Users😀</h2>
         <p>A list of all users in the directory</p>
       </div>
-      
+
       <div className="glass-panel">
         {users.length === 0 ? (
           <div className="empty-state">No users found.</div>
         ) : (
           <div className="users-grid">
             {users.map((user, index) => (
-              <div 
-                key={user.id} 
+              <div
+                key={user.id}
                 className="user-card"
                 style={{ animationDelay: `${index * 0.05}s` }}
               >
