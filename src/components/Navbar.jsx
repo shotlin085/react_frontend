@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar glass-panel">
       <div className="nav-brand">
-        <h1>Opslink v1</h1>
+        <h1>Opslink v2</h1>
       </div>
       <div className="nav-links">
         <Link
